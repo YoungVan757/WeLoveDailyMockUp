@@ -1,0 +1,224 @@
+.container {
+	max-width: 1200px;
+	margin-left: auto;
+    margin-right: auto;
+    border: 20px;
+    border: white;
+}
+
+.chair-image {
+    display: flex;
+    flex-direction: column;
+    height:700px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://maler365.dk/____impro/1/onewebmedia/project%203.jpg?etag=W%2F%222ca3f4-5bc72309%22&sourceContentType=image%2Fjpeg");
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height:33%;
+    justify-content: space-between;
+    
+}
+
+.navbar__logo {
+    display: flex;
+    text-transform: uppercase;
+    align-items:flex-start;
+    padding: 40px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.navbar__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.navbar__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.navbar__icons {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.navbar__icons img{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.navbar__links a {
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:33%;
+}
+
+
+.hero__random--container {
+    display: flex;
+    width: 25%;
+    padding-left: 40px;
+}
+
+.hero__random--1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 7px;
+}
+
+.hero__random--2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 8px;
+}
+.hero__random--3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 16px;
+}
+
+.hero__random--thicc {
+    width: 50px;
+    height: 4px;
+    background-color:black;
+    margin-top: 7px;
+}
+.hero__random--slim {
+    width: 50px;
+    height: 1px;
+    margin-top: 7px;
+    margin-right: 5px;
+    background-color:black;
+}
+
+.hero__random--slimshort {
+    width: 30px;
+    height: 1px;
+    margin-top: 7px;
+    margin-right: 5px;
+    background-color:black;
+}
+
+.hero__random {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.hero__blank {
+    display: flex;
+    width: 50%;
+}
+.hero__heading {
+    display: flex;
+    width: 100%;
+}
+
+.hero__space {
+    display: flex;
+    width: 25%;
+}
+
+.hero__main {
+    font-size: 50px;
+    width:50%;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.hero__p {
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.hero__button {
+    width: 180px;
+    height: 50px;
+    margin:20px;
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    height: 33%;
+    justify-content: space-between;
+}
+
+.footer__profile {
+    display: flex;
+    align-items: flex-end;
+    width: 50%;
+    margin: 40px;
+}
+
+.footer__avatar {
+    height:30px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.footer__text--name {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.footer__text--title {
+    font-size: 12px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.footer__text--quote {
+    font-size: 10px;
+    font-style: italic;
+}
+
+.copyright {
+    position: relative;
+    right: -180px;
+    transform: rotateZ(-90deg);
+    bottom: 40px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+@media ( max-width: 740px ) {
+  .navbar__icons img {
+    display:none;
+  }
+  
+  .navbar__icons {
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNNCAyMmgtNHYtNGg0djR6bTAtMTJoLTR2NGg0di00em0wLThoLTR2NGg0di00em0zIDB2NGgxN3YtNGgtMTd6bTAgMTJoMTd2LTRoLTE3djR6bTAgOGgxN3YtNGgtMTd2NHoiLz48L3N2Zz4=");
+    background-repeat: no-repeat;	margin-top: 35px;
+    margin-right:20px;
+  }
+  
+  .navbar__links {
+    padding-right: 100px;
+  }
+}
