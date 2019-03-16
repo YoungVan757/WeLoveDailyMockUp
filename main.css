@@ -2,7 +2,8 @@ body {
     margin: 0;
 }
 .container {
-	max-width: 1200px;
+    max-width: 100vw;
+    height: 100vh;
 	margin-left: auto;
     margin-right: auto;
     border: 20px;
@@ -12,7 +13,7 @@ body {
 .chair-image {
     display: flex;
     flex-direction: column;
-    height:700px;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     background-image: url("https://maler365.dk/____impro/1/onewebmedia/project%203.jpg?etag=W%2F%222ca3f4-5bc72309%22&sourceContentType=image%2Fjpeg");
