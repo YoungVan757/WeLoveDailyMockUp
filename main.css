@@ -218,6 +218,9 @@ body {
 }
 
 @media ( max-width: 740px ) {
+
+    
+
   .navbar__icons img {
     display:none;
   }
@@ -228,8 +231,13 @@ body {
     margin-top: 5%;
     margin-right:5%;
   }
+
+  .hero__random {
+      display: none;
+  }
   
   .navbar__links {
+    display: none;
     padding-right: 100px;
   }
 }
