@@ -219,7 +219,17 @@ body {
 
 @media ( max-width: 740px ) {
 
-    
+    .navbar {
+        height: 10%;
+    }    
+
+    .hero {
+        height: 66%;
+    }
+
+    .hero__heading {
+        padding-top: 30px;
+    }
 
   .navbar__icons img {
     display:none;
@@ -234,6 +244,10 @@ body {
 
   .hero__random {
       display: none;
+  }
+
+  .hero__p {
+      padding-top:40px;
   }
   
   .navbar__links {
