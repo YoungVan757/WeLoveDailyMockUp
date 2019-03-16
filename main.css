@@ -231,6 +231,10 @@ body {
         padding-top: 30px;
     }
 
+    .hero__main {
+        font-size: 38px;
+    }
+
   .navbar__icons img {
     display:none;
   }
