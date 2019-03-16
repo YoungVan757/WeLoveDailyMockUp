@@ -31,7 +31,7 @@ body {
     display: flex;
     text-transform: uppercase;
     align-items:flex-start;
-    padding: 40px;
+    padding: 5%;
     font-family: 'Fira Sans', sans-serif;
 }
 
@@ -45,7 +45,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 10%;
 }
 
 .navbar__icons {
@@ -203,11 +203,17 @@ body {
     font-style: italic;
 }
 
-.copyright {
-    position: relative;
-    right: -180px;
+.copyright__container {
+    display: flex;
+    height: 40%;
+    width: auto;
+    padding-right: 0%;
+    padding-top: 15%;
     transform: rotateZ(-90deg);
-    bottom: 40px;
+}
+
+.copyright {
+    
     font-family: 'Fira Sans', sans-serif;
 }
 
@@ -218,8 +224,9 @@ body {
   
   .navbar__icons {
     background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNNCAyMmgtNHYtNGg0djR6bTAtMTJoLTR2NGg0di00em0wLThoLTR2NGg0di00em0zIDB2NGgxN3YtNGgtMTd6bTAgMTJoMTd2LTRoLTE3djR6bTAgOGgxN3YtNGgtMTd2NHoiLz48L3N2Zz4=");
-    background-repeat: no-repeat;	margin-top: 35px;
-    margin-right:20px;
+    background-repeat: no-repeat;	
+    margin-top: 5%;
+    margin-right:5%;
   }
   
   .navbar__links {
